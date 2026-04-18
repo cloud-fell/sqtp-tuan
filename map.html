@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <title>团建地图 - SQTP项目</title>
+    <link rel="stylesheet" href="style.css" /> <!-- 依然共用这个CSS -->
+</head>
+<body>
+    <!-- 通用导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">团建场地测评局</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">项目主页</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 地图区域 (从原来的 index 里剪切过来) -->
+         <!-- 新增：测评地图区域 -->
+<section id="map" class="section">
+    <div class="container">
+        <h2>浙大周边团建地图 📍</h2>
+        <p style="text-align: center; margin-bottom: 2rem; color: #666;">点击地图上的图钉，查看详细测评报告</p>
+        
+        <!-- 地图容器 -->
+        <div class="map-container">
+            <!-- 地图图片 -->
+            <img src="map-base.jpg" alt="浙大周边地图" class="map-img">
+
+            <!-- 鼎顺私房菜  -->
+            <a href="review-dingshun.html" class="pin-link" style="left: 61%; top: 55%;">
+                <div class="pin-btn">鼎</div>
+            </a>
+              <!-- 蓝田学园 -->
+            <a  class="pin-link" style="left: 50%; top: 50%;">
+                <div class="pin-btn">蓝田学园</div>
+            </a>
+
+            <!-- 萨莉亚  -->
+            <a href="review-saliya.html" class="pin-link" style="left: 60%; top: 50%;">
+                <div class="pin-btn">萨</div>
+            </a>
+
+            <!-- 羊其正  -->
+            <a href="review-yangqizheng.html" class="pin-link" style="left: 75%; top: 20%;">
+                <div class="pin-btn">羊</div>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
