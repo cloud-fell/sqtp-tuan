@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <title>团建地图 - SQTP项目</title>
+    <link rel="stylesheet" href="style.css" /> <!-- 依然共用这个CSS -->
+</head>
+<body>
+    <!-- 通用导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">团建场地测评局</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">项目主页</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 地图区域 (从原来的 index 里剪切过来) -->
+         <!-- 新增：测评地图区域 -->
+<section id="map" class="section">
+    <div class="container">
+        <h2>浙大周边团建地图 📍</h2>
+        <p style="text-align: center; margin-bottom: 2rem; color: #666;">点击地图上的图钉，查看详细测评报告</p>
+        
+        <!-- 地图容器 -->
+        <div class="map-container">
+            <!-- 地图图片 -->
+            <img src="map-base.jpg" alt="浙大周边地图" class="map-img">
+
+            <!-- 鼎顺私房菜  -->
+            <a href="review-dingshun.html" class="pin-link" style="left: 61%; top: 55%;">
+                <div class="pin-btn">鼎</div>
+            </a>
+              <!-- 蓝田学园 -->
+            <a  class="pin-link" style="left: 50%; top: 50%;">
+                <div class="pin-btn">蓝田学园</div>
+            </a>
+
+            <!-- 萨莉亚  -->
+            <a href="review-sali.html" class="pin-link" style="left: 60%; top: 50%;">
+                <div class="pin-btn">萨</div>
+            </a>
+
+            <!-- 羊其正  -->
+            <a href="review-yangqi.html" class="pin-link" style="left: 75%; top: 20%;">
+                <div class="pin-btn">羊</div>
+            </a>
+            <!-- 虾蟹很忙  -->
+            <a href="review-xiaxie.html" class="pin-link" style="left: 24%; top: 86%;">
+                <div class="pin-btn">虾</div>
+            </a>
+            <!-- 三色莲花印度餐厅  -->
+            <a href="review-sanse.html" class="pin-link" style="left: 70%; top: 52%;">
+                <div class="pin-btn">三</div>
+            </a>
+            <!-- 今晚打老虎  -->
+            <a href="review-jinwan.html" class="pin-link" style="left: 70%; top: 58%;">
+                <div class="pin-btn">今</div>
+            </a>  
+            <!-- 胖哥俩肉蟹煲  -->
+            <a href="review-pangge.html" class="pin-link" style="left: 28%; top: 86%;">
+                <div class="pin-btn">胖</div>
+            </a>
+            <!-- 和府捞面  -->
+            <a href="review-hefu.html" class="pin-link" style="left: 24%; top: 80%;">
+                <div class="pin-btn">和</div>
+            </a>
+            <!-- 庭鲜大排档·潮汕鲜牛肉火锅(浙大紫金港店)  -->
+            <a href="review-tingxian.html" class="pin-link" style="left: 70%; top: 46%;">
+                <div class="pin-btn">庭</div>
+            </a>
+            <!-- 面向对象桌游馆  -->
+            <a href="review-mianxiang.html" class="yellow-link" style="left: 36%; top: 86%;">
+                <div class="yellow-btn">面</div>
+            </a>
+            <!-- 米几酿室  -->
+            <a href="review-miji.html" class="yellow-link" style="left: 77%; top: 90%;">
+                <div class="yellow-btn">米</div>
+            </a>
+            <!-- 火星工厂  -->
+            <a href="review-huoxing.html" class="yellow-link" style="left: 97%; top: 60%;">
+                <div class="yellow-btn">火</div>
+            </a>
+            <!-- 志陶一炉陶瓷教室  -->
+            <a href="review-zhitao.html" class="yellow-link" style="left: 82%; top: 71%;">
+                <div class="yellow-btn">志</div>
+            </a>
+            
+        </div>
+    </div>
+</section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
